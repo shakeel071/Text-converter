@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Voice Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <div class="wall wall-top"></div>
+            <div class="wall wall-bottom"></div>
+            <div class="wall wall-left"></div>
+            <div class="wall wall-right"></div>
+            <div class="wall wall-back"></div>
+        </div>
+        <div class="container-2">
+        <div class="heading">
+            <h1>Text To speech</h1>
+        </div>
+        <textarea id="text" cols="30" rows="12" placeholder="Type your text here..."></textarea>
+        <div class="tools">
+            <div>
+                <label for="pitch">Voice Pitch</label>
+                <input type="range" id="pitch" max="2">
+            </div>
+            <div>
+                <label for="speed">Voice Speed</label>
+                <input type="range" id="speed" max="2">
+            </div>
+        </div>
+        <button id="btn">Speak Now</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
