@@ -111,12 +111,12 @@ body{
     font-family: cursive;
     border: none;
     border-radius: 10px;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.1);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-top:1px solid rgba(255,255,255,0.2);
-    border-left:1px solid rgba(255,255,255,0.2);
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left:1px solid rgba(255,255,255,0.5);
     box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
 }
 .container-2 button:hover{
